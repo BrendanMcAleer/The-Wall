@@ -1,0 +1,59 @@
+<html>
+<head>
+	<title>The Wall</title>
+	<link rel='stylesheet' type='text/css' href="{{ url_for('static', filename="wall.css")}}">
+	<script type="text/javascript" src="{{ url_for('static', filename="jquery.js")}}"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.messages').click(function() {
+				if($('form#comments:first').is(':hidden')) {
+					$('form#comments').slideDown("slow");
+				} else {
+					$('form#comments').hide;
+				}
+			})
+
+			$('.comment').click(function() {
+				if($('form#comments:first').is(':hidden')) {
+					$('form#comments').slideDown("slow");
+				} else {
+					$('form#comments').hide;
+				}
+			})
+		});
+	</script>
+</head>
+<body>
+	<div id="header">
+		<h3>CodingDojo Wall</h3>
+		<p>Welcome, {{session['first_name']}}</p>
+		<a href='/logout'>Log Out</a>
+		<hr>
+	</div>
+<div class="content">
+	<div id="status">
+		<form action='/messages' method='POST'>
+			<input type="text" name="message"><br>
+			<input type="submit" value="Post a Message"/>
+		</form>
+	</div>
+{% for message in messages: %}	
+	<div class="messages">
+		<p>{{message['first_name']}} {{message['last_name']}} - {{message['created_at']}}<br>{{message['message']}}</p>
+		{% for comment in comments: %}
+			{% if comment['message_id'] == message['id'] %}
+				<div class="comment">
+					<p>{{comment['first_name']}} {{comment['last_name']}} {{comment['created_at']}}<br>{{comment['comment']}}</p>
+				</div>
+			{% endif %}
+		{% endfor %}	
+		<form action='/comments' method='POST' id="comments">
+			<input type="hidden" name='message_id' value = "{{message['id']}}">
+			<textarea name ='comment'></textarea>
+			<input type="submit" value="Post a Comment"/>
+		</form>
+	</div>
+{% endfor %}
+</div>
+</body>
+</html>
