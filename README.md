@@ -1,17 +1,4 @@
 
-</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/BrendanMcAleer/The-Wall/delete/master/README.md" class="inline-form" data-form-nonce="64e663af3f5b2c8bef89c228aea7eb376c971e91" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="I1SMX+0BXAesU5aD2g808opPLAk9JHjkCwxXhSkjlLMP6Uoz2DR+KUrmfM5OuR+szesvfsuBJek4G87HbNVL2A==" /></div>
-          <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
-            aria-label="Delete this file" data-disable-with>
-            <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M10 2H8c0-0.55-0.45-1-1-1H4c-0.55 0-1 0.45-1 1H1c-0.55 0-1 0.45-1 1v1c0 0.55 0.45 1 1 1v9c0 0.55 0.45 1 1 1h7c0.55 0 1-0.45 1-1V5c0.55 0 1-0.45 1-1v-1c0-0.55-0.45-1-1-1z m-1 12H2V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9z m1-10H1v-1h9v1z"></path></svg>
-          </button>
-</form>  </div>
-
-  <div class="file-info">
-      1 lines (1 sloc)
-      <span class="file-info-divider"></span>
-    10 Bytes
-  </div>
-</div>
 
   
   <div id="readme" class="readme blob instapaper_body">
