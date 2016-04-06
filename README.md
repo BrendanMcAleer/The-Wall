@@ -1,9 +1,4 @@
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/BrendanMcAleer/The-Wall/edit/master/README.md" class="inline-form js-update-url-with-hash" data-form-nonce="64e663af3f5b2c8bef89c228aea7eb376c971e91" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="5+Kq/HQHdrNUSgJ6aYBOwTMWgCyPiV22Xi1VhKgnD8x83gtYhjKyRASYoO/2XcFI5fwftj9qg+ukK3OzhRAFww==" /></div>
-          <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
-            aria-label="Edit this file" data-hotkey="e" data-disable-with>
-            <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M0 12v3h3l8-8-3-3L0 12z m3 2H1V12h1v1h1v1z m10.3-9.3l-1.3 1.3-3-3 1.3-1.3c0.39-0.39 1.02-0.39 1.41 0l1.59 1.59c0.39 0.39 0.39 1.02 0 1.41z"></path></svg>
-          </button>
 </form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/BrendanMcAleer/The-Wall/delete/master/README.md" class="inline-form" data-form-nonce="64e663af3f5b2c8bef89c228aea7eb376c971e91" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="I1SMX+0BXAesU5aD2g808opPLAk9JHjkCwxXhSkjlLMP6Uoz2DR+KUrmfM5OuR+szesvfsuBJek4G87HbNVL2A==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Delete this file" data-disable-with>
