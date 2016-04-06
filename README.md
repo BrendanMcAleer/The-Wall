@@ -1,11 +1,4 @@
 
-        <a class="btn-octicon tooltipped tooltipped-nw"
-           href="github-mac://openRepo/https://github.com/BrendanMcAleer/The-Wall?branch=master&amp;filepath=README.md"
-           aria-label="Open this file in GitHub Desktop"
-           data-ga-click="Repository, open with desktop, type:mac">
-            <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15 2H1c-0.55 0-1 0.45-1 1v9c0 0.55 0.45 1 1 1h5.34c-0.25 0.61-0.86 1.39-2.34 2h8c-1.48-0.61-2.09-1.39-2.34-2h5.34c0.55 0 1-0.45 1-1V3c0-0.55-0.45-1-1-1z m0 9H1V3h14v8z"></path></svg>
-        </a>
-
         <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/BrendanMcAleer/The-Wall/edit/master/README.md" class="inline-form js-update-url-with-hash" data-form-nonce="64e663af3f5b2c8bef89c228aea7eb376c971e91" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="5+Kq/HQHdrNUSgJ6aYBOwTMWgCyPiV22Xi1VhKgnD8x83gtYhjKyRASYoO/2XcFI5fwftj9qg+ukK3OzhRAFww==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Edit this file" data-hotkey="e" data-disable-with>
